@@ -5,7 +5,7 @@ const testimonials = [
         name: 'Rushikesh Ghotekar',
         role: 'Software Developer',
         content:
-            '',
+            'Created using ReactJs and Open Trivia DBT',
         avatar:
             'https://avatars.githubusercontent.com/u/45139653?v=4',
             
@@ -99,7 +99,7 @@ export default function About() {
                     fontSize={20}
                     textTransform={'uppercase'}
                     color={'purple.400'}>
-                    People love us
+                    Presenting a Quiz App
                 </chakra.h3>
                 <chakra.h1
                     py={5}
@@ -107,7 +107,7 @@ export default function About() {
                     fontFamily={'Work Sans'}
                     fontWeight={'bold'}
                     color={useColorModeValue('gray.300', 'gray.50')}>
-                    Quiz Web App
+                    QuizWiser
                 </chakra.h1>
                 <chakra.h2
                     margin={'auto'}
@@ -115,7 +115,7 @@ export default function About() {
                     fontFamily={'Inter'}
                     fontWeight={'medium'}
                     color={useColorModeValue('gray.500', 'gray.400')}>
-                    Test Your Knowledge with Fun Quizzes on Our Exciting Website!
+                    Test Your Knowledge with exicting Quiz!
                 </chakra.h2>
             </Box>
             <SimpleGrid
